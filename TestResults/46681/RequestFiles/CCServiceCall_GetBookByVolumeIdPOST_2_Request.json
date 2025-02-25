@@ -1,0 +1,14 @@
+{
+  "request" : {
+    "method" : "POST",
+    "header" : [ {
+      "Content-Type" : "x-www-form-urlencoded"
+    } ],
+    "body" : {
+      "fruit" : "strawberry",
+      "vegetable" : "broccoli",
+      "myFavorites" : [ "kiwi", "nectarine", "pomelo" ]
+    },
+    "url" : "https://postman-echo.com/post"
+  }
+}

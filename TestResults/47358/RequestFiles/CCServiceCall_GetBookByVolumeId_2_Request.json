@@ -1,0 +1,10 @@
+{
+  "request" : {
+    "method" : "GET",
+    "header" : [ {
+      "Content-Type" : "x-www-form-urlencoded"
+    } ],
+    "body" : { },
+    "url" : "https://www.googleapis.com/books/v1/volumes/nKdJDwAAQBAJ"
+  }
+}

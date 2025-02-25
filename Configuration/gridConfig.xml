@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<grid>
+	<config name="GridConfig">
+		<hub url="http://127.0.0.1:4444/wd/hub"/>
+		<nodes>
+               <node url="http://127.0.0.1:8056/wd/hub" browser="Chrome"/>
+					  
+               
+          </nodes>
+		
+	</config>
+</grid>

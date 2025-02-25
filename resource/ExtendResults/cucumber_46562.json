@@ -1,0 +1,94 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 421700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.BeforeHookMethod(Scenario)"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "ETAFDEMO_PostScenario",
+        "description": "",
+        "id": "etafdemo;etafdemo-postscenario",
+        "after": [
+          {
+            "result": {
+              "duration": 31200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"javax.net.ssl.HttpsURLConnection.disconnect()\" because \"connection\" is null\r\n\tat com.project.reusablemethods.ScreenlessUtils.SendGetMethod(ScreenlessUtils.java:666)\r\n\tat com.project.reusablemethods.ScreenlessUtils.TriggerServiceCallofGetMethod(ScreenlessUtils.java:602)\r\n\tat com.project.stepdefinition.ScreenlessStepDefenition.i_trigger_the_Service_Call_using_Endpoint_URL(ScreenlessStepDefenition.java:72)\r\n\tat ✽.I trigger the Service Call using Endpoint URL(C:/Users/divu_/Downloads/GoogleServices/GoogleServices/featurefiles/PID3.feature:59)\r\n",
+              "duration": 1785123000,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "I trigger the Service Call using Endpoint URL",
+            "match": {
+              "location": "ScreenlessStepDefenition.i_trigger_the_Service_Call_using_Endpoint_URL(String,String\u003e)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 25365900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.AfterStep(Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "ReferenceId",
+                  "CCServiceCall_GetBookByVolumeIdPOST_2"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@browser\u003dCHROME"
+          },
+          {
+            "name": "@ETAF"
+          }
+        ]
+      }
+    ],
+    "name": "ETAFDemo",
+    "description": "BDD Suite Description",
+    "id": "etafdemo",
+    "keyword": "Feature",
+    "uri": "C:/Users/divu_/Downloads/GoogleServices/GoogleServices/featurefiles/PID3.feature",
+    "tags": [
+      {
+        "name": "@browser\u003dCHROME",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

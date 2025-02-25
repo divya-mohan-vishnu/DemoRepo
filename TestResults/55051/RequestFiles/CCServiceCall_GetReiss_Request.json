@@ -1,0 +1,10 @@
+{
+  "request" : {
+    "method" : "GET",
+    "header" : [ {
+      "Content-Type" : "x-www-form-urlencoded"
+    } ],
+    "body" : { },
+    "url" : "https://elsapi-app-rsl-dev-euw.azurewebsites.net/api/CustomsDeclarationMonthWiseInvoiceValue/$SearchTerm"
+  }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite data-provider-thread-count="2" name="Failed suite [Suite]">
+  <parameter name="optParam" value="46173"/>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="aiDefect" value="N"/>
+    <parameter name="debugFlag" value="N"/>
+    <parameter name="jiraProjectkey" value=""/>
+    <parameter name="runId" value="46173"/>
+    <parameter name="projectName" value="Google"/>
+    <parameter name="ratio" value=""/>
+    <classes>
+      <class name="com.framework.runner.TestRunner">
+        <methods>
+          <include name="BeforeSuiteClass"/>
+          <include name="AfterSuite"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+          <include name="scenario" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.framework.runner.TestRunner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
